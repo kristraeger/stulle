@@ -3755,7 +3755,11 @@ a.order-btn:hover{
 }
 
 .about-text {
-  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #333;
 }
 
 .add-info{
@@ -3797,6 +3801,14 @@ a.order-btn:hover{
   width:90%;
 }
 
+section#team {
+
+}
+
+#header-line {
+  height: 90px;
+}
+
 @media(max-width: 1208px){
   #readMore{
     width:90%;
@@ -3812,10 +3824,55 @@ a.btn.white {
   opacity: 0;
 }
 
+.bg-white{
+  background-color: white;
+}
+
+.owl-carousel .owl-stage {
+  width:100% !important;
+}
+
 @media (max-width: 992px){
   #about-tag {
     background-color: white;
   }
+}
+
+@media (max-width: 375px){
+  #main-wrap {
+    padding:0;
+  }
+
+  .container: {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  #main-wrap header.fixed-top {
+    left:0;
+    width:100%;
+  }
+
+  #main-wrap .navbar-default .container #logo {
+    padding-left: 35px;
+  }
+
+  #main-wrap .navbar-default .container #navbar {
+    padding-right: 25px;
+  }
+
+  #header-line {
+    display: none;
+  }
+
+  #main-wrap #text-slider .container h2 {
+    padding-left: 0;
+  }
+
+  a.order-btn {
+    margin-left:0;
+  }
+
 }
 
 
